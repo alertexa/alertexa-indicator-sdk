@@ -1,6 +1,5 @@
 package indicatorsdk
 
-// Invoke implements IIndicator.
 func (i *indicator) EMA(prices []float64, length int) float64 {
 	var value float64
 
